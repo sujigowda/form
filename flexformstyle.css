@@ -1,0 +1,92 @@
+.main-container
+{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.container-1
+{
+    height: 30px;
+    background-color:Black;
+}
+
+.container-1 header {
+
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    padding-left: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-2
+{
+    display:flex;
+    flex-flow: row;
+    background-color: teal;
+    justify-content: space-between;
+    
+
+}
+.container-2 h1{
+
+    padding: 5px;
+
+}
+
+.container-3 
+{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+    border: 3px teal solid;
+    align-items:center;
+    justify-content: center;
+    height: 400px;
+    width:300px ;
+    margin-left: 40%;
+    border-radius: 10px;
+
+}
+
+.container-3 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.container-3 div input,select{
+    border-radius: 3px;
+    /* background-color: rgb(110, 197, 197); */
+    border: 2px  rgb(18, 153, 153) solid;
+    
+}
+
+label{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.login
+{
+    margin-top: 20px;
+    background-color: rgb(5, 44, 44);
+    border: 2px  rgb(26, 238, 238) solid;
+    border-radius: 5px;
+}
+
+.login:active
+{
+    background-color: rgb(3, 31, 28);
+}
+
+
+
+ 
